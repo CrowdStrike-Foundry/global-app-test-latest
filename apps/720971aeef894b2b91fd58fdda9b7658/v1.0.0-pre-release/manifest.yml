@@ -1,0 +1,37 @@
+app_id: 720971aeef894b2b91fd58fdda9b7658
+name: global-app-test-latest
+description: global-app-test-latest
+logo: ""
+vendor: OKTA
+vendor_products:
+    - Security
+use_case: Email security
+manifest_version: ""
+ignored: []
+ui:
+    homepage: ""
+    extensions: []
+    pages: {}
+    dashboards: {}
+    navigation: {}
+api_integrations: []
+rtr_scripts: []
+collections: []
+auth:
+    scopes: []
+    permissions: {}
+    roles: []
+functions: []
+workflows: []
+parsers:
+    - name: test-parser-latest
+      description: latest test parser
+      path: parsers/test-parser-latest/script.txt
+      fields_to_tag: []
+      fields_to_remove: []
+      is_data_connector: true
+      tests_path: ""
+logscale:
+    saved_searches: []
+lookup_files: []
+app_docs: []
